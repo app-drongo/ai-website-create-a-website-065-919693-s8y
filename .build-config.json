@@ -1,0 +1,19 @@
+{
+  "projectId": "68e61ba41b89fec0f9b1b8fe",
+  "userId": "unknown",
+  "workspaceId": "default",
+  "accountId": "default",
+  "buildConfig": {
+    "nodeVersion": "20",
+    "buildCommand": "npm run build",
+    "outputDirectory": "out",
+    "buildTimeout": 180000
+  },
+  "deployment": {
+    "provider": "bunny",
+    "storageZone": "builderapp",
+    "basePath": "sites/68e61ba41b89fec0f9b1b8fe",
+    "makePublic": true,
+    "cdnUrl": "https://builderapp-sites.b-cdn.net/sites/68e61ba41b89fec0f9b1b8fe/"
+  }
+}
